@@ -8,7 +8,12 @@ This dataset is from [source](https://old.datahub.io/dataset/linkedct), which de
 
 **Attribute Details**   
 ```
-id,facility_address_country,download_date,org_study_id,nct_id,brief_title,acronym,official_title,lead_sponsor_agency,source,overall_status,why_stopped,phase,study_type,study_design,number_of_arms,diagnosis,enrollment,biospec_retention,eligibility_sampling_method,eligibility_gender,eligibility_minimum_age,eligibility_maximum_age,eligibility_healthy_volunteers,condition,measure,time_frame,safety_issue,drug_name
+id,facility_address_country,download_date,org_study_id,nct_id,brief_title,acronym,
+official_title,lead_sponsor_agency,source,overall_status,why_stopped,phase,
+study_type,study_design,number_of_arms,diagnosis,enrollment,biospec_retention,
+eligibility_sampling_method,eligibility_gender,eligibility_minimum_age,
+eligibility_maximum_age,eligibility_healthy_volunteers,condition,measure,
+time_frame,safety_issue,drug_name
 ```                                                                                                                                                                                                                             
 ### Census Dataset 
 The dataset contains 300K records with 40 attributes from the U.S. Census Bureau. This dataset can be found [here](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html), containing population data.
