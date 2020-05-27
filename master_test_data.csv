@@ -1,0 +1,8 @@
+PID,GEN,AGE,SYMP,DRUG,ILLNESS
+512,female,0,physical,Clofarabine,cold2
+512,male,1,physical,ab,cold3
+512,male,1,physical,ab,cold3
+512,male,3,fever,Clofarabine,cold4
+512,male,0,nausea,abcd,cold4
+512,male,5,nausea,abc,cold4
+512,male,0,nausea,abcd,cold4

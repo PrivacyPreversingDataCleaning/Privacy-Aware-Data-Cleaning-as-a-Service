@@ -1,0 +1,15 @@
+PID,GEN,AGE,SYMP,DRUG,ILLNESS
+512,male,0,physical,Clofarabine,cold
+512,male,0,nausea,Clofarabine,hot
+512,male,1,physical,Clofarabine,cold
+512,male,1,fever,Clofarabine,cold
+512,male,3,fever,Clofarabine,cold
+512,male,0,nausea,Clofarabine,cold
+512,male,5,nausea,Clofarabine,cold
+512,male,6,fatigue,Clofarabine,cold
+512,male,7,nausea,Clofarabine,cold
+512,male,8,nausea,Clofarabine,cold
+512,male,9,fever,Clofarabine,cold
+512,male,10,nausea,Clofarabine,cold
+512,male,12,abdominal,Clofarabine,cold
+512,male,11,nausea,Clofarabine,cold

@@ -1,0 +1,55 @@
+{
+  "value": "religion",
+  "children": [
+    {
+      "value": "CHRISTIAN",
+      "children": [
+        {
+          "value": "CATHOLICISM",
+          "children": [
+            {
+              "value": "FRANCISCANS",
+              "children": []
+            }
+          ]
+        },
+        {
+          "value": "ORTHODOX",
+          "children": []
+        }
+      ]
+    },
+    {
+      "value": "JEWISH",
+      "children": []
+    },
+    {
+      "value": "BUDDHISM",
+      "children": [
+      ]
+    },
+    {
+      "value": "ISLAM",
+      "children": [
+        {
+          "value": "SHIAH",
+          "children": [
+            {
+              "value": "ISMAILI",
+              "children": []
+            },
+            {
+              "value": " ZAYDI",
+              "children": []
+            }
+          ]
+        },
+        {
+          "value": "SUNNITE",
+          "children": [
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "value": "condition",
+  "children": [
+
+    {
+      "value" : "physical",
+      "children" : [
+        {
+          "value" : "Rheumatoid Arthritis",
+          "children" : [
+            {
+              "value" : "Arthritis, Rheumatoidr",
+              "children" : []
+            },
+            {
+              "value" : "Rheumatoid Arthritis",
+              "children" : [
+                {
+                  "value" : "Atrial Fibrillation",
+                  "children" : []
+                },
+                {
+                  "value" : "Atrial Flutter",
+                  "children" : []
+                },
+                {
+                  "value" : "Hemodialysis",
+                  "children" : []
+                }
+              ]
+            },
+            {
+              "value" : "Reflux Esophagitis",
+              "children" : []
+            },
+            {
+              "value" : "Ankylosing Spondylitis",
+              "children" : []
+            },
+            {
+              "value" : "Sepsisr",
+              "children" : []
+            }
+
+          ]
+        },
+        {
+          "value" : "Cancer",
+          "children" : [
+            {
+              "value" : "Breast Cancer",
+              "children" : []
+            },
+            {
+              "value" : "Psoriasisr",
+              "children" : []
+            },
+            {
+              "value" : "Non-Small Cell Lung Cancer",
+              "children" : []
+            },
+            {
+              "value" : "Gastric Cancer",
+              "children" : []
+            },
+            {
+              "value" : "Prostate Cancer",
+              "children" : []
+            },
+            {
+              "value" : "Lung Cancer",
+              "children" : []
+            },
+            {
+              "value" : "Non-Small Cell Lung Cancer",
+              "children" : []
+            },
+            {
+              "value" : "Advanced Breast Cancer",
+              "children" : []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "value" : "abdominal",
+      "children" : [
+        {
+          "value": "Crohn's Disease",
+          "children": [
+            {
+              "value" : "Diabetic Neuropathy, Painful",
+              "children" : []
+            },
+            {
+              "value" : "Metastasis",
+              "children" : []
+            },
+            {
+              "value" : "Systemic Inflammatory Response Syndrome",
+              "children" : []
+            },
+            {
+              "value" : "Acute Lung Injury",
+              "children" : []
+            },
+            {
+              "value" : "Carcinoma, Pancreatic Ductal",
+              "children" : []
+            }
+
+          ]
+        }
+      ]
+
+    },
+
+    {
+      "value" : "neural",
+      "children" : [
+        {
+              "value" : "Depression",
+              "children" : []
+            },
+        {
+              "value" : "Duodenal Ulcer",
+              "children" : []
+            },
+        {
+              "value" : "Lumbago",
+              "children" : []
+            },
+        {
+              "value" : "Thromboembolism",
+              "children" : []
+            }
+
+
+
+
+
+      ]
+    }
+
+  ]
+}

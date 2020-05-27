@@ -1,0 +1,68 @@
+{
+  "value": "timeframe",
+  "children": [
+    {
+      "value": "every year",
+      "children": [
+        {
+          "value": "no more than half year",
+          "children": [
+            {
+              "value": "1-3 months",
+              "children": [
+                {
+                  "value": "1 month",
+                  "children": [
+                    {
+                      "value": "every week",
+                      "children": [
+                        {
+                          "value": "24 hours",
+                          "children": []
+                        },
+                        {
+                          "value": "4 days",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "2 month",
+                  "children": [
+                    {
+                      "value": "6 weeks",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "value": "3 month",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "value": "4-6 months",
+              "children": [
+                {
+                  "value": "20 weeks",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "more than half year",
+          "children": []
+        }
+      ]
+    },
+    {
+      "value": "more than one year",
+      "children": []
+    }
+  ]
+}
