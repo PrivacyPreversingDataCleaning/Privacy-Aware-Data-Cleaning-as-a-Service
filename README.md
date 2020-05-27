@@ -4,7 +4,7 @@
 ## Datasets
 
 ### Clinical Trails Dataset
-This dataset is from [source](https://old.datahub.io/dataset/linkedct), which describes patient demographics, diagnosis, prescribed drugs, symptoms, and treatment.
+This dataset is from [source](https://old.datahub.io/dataset/linkedct), which describes patient demographics, diagnosis, symptoms, condition, etc.
 
 **Attribute Details**   
 ```
@@ -16,7 +16,7 @@ eligibility_maximum_age,eligibility_healthy_volunteers,condition,measure,
 time_frame,safety_issue,drug_name
 ```                                                                                                                                                                                                                             
 ### Census Dataset 
-The dataset contains 300K records with 40 attributes from the U.S. Census Bureau. This dataset can be found [here](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html), containing population data.
+The dataset contains 300K records with 40 attributes from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html), which provides population characteristics such as education level, years of schooling, occupation, income, and age, etc.
 
 **Attribute Details**   
 ```
@@ -70,7 +70,7 @@ weeks worked in year WKSWORK
 
 
 ### Food Inspection
-This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/), which contains violation citations of inspected restaurants in New York City describing the address, borough, zipcode, violation code, violation description, inspection type, score, grade.
+This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/), which provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
 
 **Attribute Details**
 
