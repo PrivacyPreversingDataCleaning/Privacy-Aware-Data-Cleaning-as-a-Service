@@ -13,7 +13,7 @@ eligibility_maximum_age,eligibility_healthy_volunteers,condition,measure,
 time_frame,safety_issue,drug_name
 ```                                                                                                                                                                                                                             
 ### Census Dataset 
-The dataset contains 300K records with 40 attributes from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html), which provides population characteristics such as education level, years of schooling, occupation, income, and age, etc.
+The dataset has 40 attributes from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html), which provides population characteristics such as education level, years of schooling, occupation, income, and age, etc.
 
 **Attribute Schema**   
 ```
@@ -67,7 +67,7 @@ weeks worked in year WKSWORK
 
 
 ### Food Inspection
-This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/), which provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
+This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/), which  has 11 attributs and provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
 
 **Attribute Schema**
 
