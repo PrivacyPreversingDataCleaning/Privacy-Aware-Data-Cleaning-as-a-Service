@@ -107,8 +107,18 @@ This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/),
 **Attribute Schema**
 
 ```
-borough, address, violation code, violation description, zipcode, cuisine
-description, action, inspection type, critical flag, score, grade
+borough
+address
+violation code
+violation description
+zipcode
+cuisine
+description
+action
+inspection type
+critical flag
+score
+grade
 ```
 
 **Functional Dependencies:**
