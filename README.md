@@ -1,17 +1,46 @@
 ## Datasets
 
-### Clinical Trails Dataset
-This dataset is from [source](https://old.datahub.io/dataset/linkedct). It has 29 attributes and describes patient demographics, diagnosis, symptoms, condition, etc.
+### Clinical Trials Dataset
+This dataset contains international clinical trials record from different countries. We used a portion of this dataset that includes data from four countries: Canada, Germany, Italy and Japan. It is available from [source](https://old.datahub.io/dataset/linkedct). It has 29 attributes and describes patient demographics, diagnosis, symptoms, condition, etc.
 
 **Attribute Schema**   
 ```
-id,facility_address_country,download_date,org_study_id,nct_id,brief_title,acronym,
-official_title,lead_sponsor_agency,source,overall_status,why_stopped,phase,
-study_type,study_design,number_of_arms,diagnosis,enrollment,biospec_retention,
-eligibility_sampling_method,eligibility_gender,eligibility_minimum_age,
-eligibility_maximum_age,eligibility_healthy_volunteers,condition,measure,
-time_frame,safety_issue,drug_name
-```                                                                                                                                                                                                                             
+id
+facility_address_country
+download_date
+org_study_id
+nct_id
+brief_title
+acronym
+official_title
+lead_sponsor_agency
+source
+overall_status
+why_stopped
+phase
+study_type
+study_design
+number_of_arms
+diagnosis
+enrollment
+biospec_retention
+eligibility_sampling_method
+eligibility_gender
+eligibility_minimum_age
+eligibility_maximum_age
+eligibility_healthy_volunteers
+condition
+measure
+time_frame
+safety_issue
+drug_name
+```
+
+**Functional Dependencies:**
+age, overall_status, diagnosis -> drug_name
+overall_status, time_frame, measure -> condition
+
+
 ### Census Dataset 
 The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and provides population characteristics such as education level, years of schooling, occupation, income, and age, etc.
 
@@ -65,6 +94,10 @@ veterans benefit VETYN
 weeks worked in year WKSWORK
 ```
 
+**Functional Dependencies:**
+ age, education-num -> education
+ age, industry code, occupation -> wage-per-hour 
+
 
 ### Food Inspection
 This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/), which  has 11 attributs and provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
@@ -75,6 +108,11 @@ This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/),
 borough, address, violation code, violation description, zipcode, cuisine
 description, action, inspection type, critical flag, score, grade
 ```
+
+**Functional Dependencies:**
+borough, zipcode -> address
+violation code, inspection type -> violation description
+
 
 ## Source Code
 The source code is available [here](https://github.com/PrivacyPreversingDataCleaning/Privacy-Aware-Data-Cleaning-as-a-Service).
