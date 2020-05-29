@@ -1,12 +1,9 @@
-# Privacy-Aware-Data-Cleaning-as-a-Service
-
-
 ## Datasets
 
 ### Clinical Trails Dataset
-This dataset is from [source](https://old.datahub.io/dataset/linkedct), which describes patient demographics, diagnosis, symptoms, condition, etc.
+This dataset is from [source](https://old.datahub.io/dataset/linkedct). It has 29 attributes and describes patient demographics, diagnosis, symptoms, condition, etc.
 
-**Attribute Details**   
+**Attribute Schema**   
 ```
 id,facility_address_country,download_date,org_study_id,nct_id,brief_title,acronym,
 official_title,lead_sponsor_agency,source,overall_status,why_stopped,phase,
@@ -18,7 +15,7 @@ time_frame,safety_issue,drug_name
 ### Census Dataset 
 The dataset contains 300K records with 40 attributes from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html), which provides population characteristics such as education level, years of schooling, occupation, income, and age, etc.
 
-**Attribute Details**   
+**Attribute Schema**   
 ```
 age AAGE
 class of worker ACLSWKR
@@ -37,10 +34,10 @@ hispanic Origin AREORGN
 sex ASEX
 member of a labor union AUNMEM
 reason for unemployment AUNTYPE
-full or part time employment stat AWKSTAT
+full or part-time employment stat AWKSTAT
 capital gains CAPGAIN
 capital losses CAPLOSS
-divdends from stocks DIVVAL
+dividends from stocks DIVVAL
 federal income tax liability FEDTAX
 tax filer status FILESTAT
 region of previous residence GRINREG
@@ -61,10 +58,10 @@ country of birth mother PEMNTVTY
 country of birth self PENATVTY
 citizenship PRCITSHP
 total person income PTOTVAL
-own business or self employed SEOTR
+own business or self-employed SEOTR
 taxable income amount TAXINC
 fill inc questionnaire for veteran's admin VETQVA
-veterans benefits VETYN
+veterans benefit VETYN
 weeks worked in year WKSWORK
 ```
 
@@ -72,7 +69,7 @@ weeks worked in year WKSWORK
 ### Food Inspection
 This dataset is from NYU open data [source](https://opendata.cityofnewyork.us/), which provides violation citations of inspected restaurants in New York City. It contains the restaurant address, violation code, violation description, zipcode, etc.
 
-**Attribute Details**
+**Attribute Schema**
 
 ```
 borough, address, violation code, violation description, zipcode, cuisine
