@@ -22,8 +22,8 @@ class of worker ACLSWKR
 industry code ADTIND
 occupation ADTOCC
 adjusted gross income AGI
-education AHGA
-education-num
+education AEDU
+education-num AEDU-NUM
 wage per hour AHRSPAY
 enrolled in edu inst last wk AHSCOL
 marital status AMARITL
