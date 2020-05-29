@@ -13,7 +13,7 @@ eligibility_maximum_age,eligibility_healthy_volunteers,condition,measure,
 time_frame,safety_issue,drug_name
 ```                                                                                                                                                                                                                             
 ### Census Dataset 
-The dataset has 40 attributes from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html), which provides population characteristics such as education level, years of schooling, occupation, income, and age, etc.
+The dataset is from the U.S. Census Bureau [source](https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.html). It has 40 attributes and provides population characteristics such as education level, years of schooling, occupation, income, and age, etc.
 
 **Attribute Schema**   
 ```
